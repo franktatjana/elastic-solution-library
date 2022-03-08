@@ -1,13 +1,13 @@
 # ML jobs in Elastic Security
  
  
-Status 08.03.2022 64 jobs
+Status 08.03.2022 64 jobs 
  
-[Anomaly Detection with Machine Learning](https://www.elastic.co/guide/en/security/8.0/machine-learning.html) for job requirements:
+## [Anomaly Detection with Machine Learning](https://www.elastic.co/guide/en/security/8.0/machine-learning.html) for job requirements:
 1. appropriate license (enteprrise or platinum)
  
 2. on-prem deployment elasticsearch node with a ML role
-[requirements](https://www.elastic.co/guide/en/machine-learning/8.0/setup.html) _OR_ cloud deployment with ML nodes activated [by custimization](https://www.elastic.co/guide/en/cloud/current/ec-customize-deployment.html)
+[requirements](https://www.elastic.co/guide/en/machine-learning/8.0/setup.html) **_OR_** cloud deployment with ML nodes activated [by custimization](https://www.elastic.co/guide/en/cloud/current/ec-customize-deployment.html)
  
 3. two weeks data "ML jobs look back two weeks of historical data prior to the time they are enabled. After jobs are enabled, they continuously analyze incoming data. When jobs are stopped and restarted within the two-week time frame, previously analyzed data is not processed again."
  
@@ -20,9 +20,9 @@ Status 08.03.2022 64 jobs
  
 | Goal | So what?   | Job Name | Specific Tags|
 | ----------- | ----------- |----------- |----------- |
-| unusual destination port activity | command-and-control, persistence mechanism, or data exfiltration | v2_linux_anomalous_network_port_activity_ecs| network |
-| processes unusual to **all** OR  **particular**  Linux hosts | unauthorized services, malware, or persistence mechanisms | v2_linux_anomalous_process_all_hosts_ecs </br>v2_rare_process_by_host_linux_ecs | process |
-| anomalous access to metadata | unusual process or users to harvest credentials or user data scripts containing secrets  | v2_linux_rare_metadata_process</br>v2_linux_rare_metadata_user| process|
+| unusual destination port activity | command-and-control, </br>persistence mechanism, </br> data exfiltration | v2_linux_anomalous_network_port_activity_ecs| network |
+| processes unusual to **all** OR  **particular**  Linux hosts | unauthorized services, </br> malware, </br> persistence mechanisms | v2_linux_anomalous_process_all_hosts_ecs </br>v2_rare_process_by_host_linux_ecs | process |
+| anomalous access to metadata | unusual process or users </br> harvesting credentials or user data scripts containing secrets  | v2_linux_rare_metadata_process</br>v2_linux_rare_metadata_user| process|
 | rare and unusual users that are not normally active may indicate | unauthorized changes </br> or activity by an unauthorized user </br> credentialed access or lateral movement | v2_linux_anomalous_user_name_ecs | process|
  
  

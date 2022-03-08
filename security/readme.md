@@ -1,4 +1,5 @@
 # What is Limitless XDR?
+[PDF to download](https://github.com/franktatjana/elastic-solution-library/blob/main/security/_TFR_Elastic%20Security%20Solution%20Resources_EN.pdf)
 ## Visibility, Analytics, Response
 While EDR is more readily implemented into a security team's existing toolset, XDR is far more effective at boosting teams' ability to monitor, detect, and respond across the organization's full attack surface. Wondering which solution is best for your organization's needs? Why not both? With Elastic Security's Limitless XDR, EDR is a key component — alongside SIEM and cloud security — of the comprehensive solution.
 - XDR Whitepapers videos, case studies, etc https://www.elastic.co/explore/security-without-limits  

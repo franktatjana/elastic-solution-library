@@ -28,7 +28,6 @@ These packages look for unusual discovery activity. This approach is much for fe
 
 5. Enable MLs in SIEM top right corner "ML job settings", find ML processes and activate it with one click.
 
- 
 ## How much data ML needs? 
 - You can apply ML from day one, jobs will notify you if there is no enough data.  
 - Machine learning jobs look back and analyze two weeks of historical data prior to the time they are enabled. After jobs are enabled, they continuously analyze incoming data. 
@@ -46,7 +45,6 @@ These packages look for unusual discovery activity. This approach is much for fe
 
 2. Enable notifications about the anomalies [Generating alerts for anomaly detection jobs](https://www.elastic.co/guide/en/machine-learning/8.1/ml-configuring-alerts.html) 
 </br>
-
 
 ## Advanced analytics with ML in security and logs
 If your data is in Elasticsearch, it's ready for machine learning. The Elastic Stack processes data upon ingestion, ensuring that you have the metadata you need to identify root causes or add context to any event.

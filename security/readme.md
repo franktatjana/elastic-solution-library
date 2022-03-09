@@ -9,9 +9,10 @@ While EDR is more readily implemented into a security team's existing toolset, X
 - Endpoint security 		https://www.elastic.co/endpoint-security/ 
 
 ## Agent and data onboarding
-We can get your data in the system in a minute with a number of assets, such as dashboards, saved searches, and visualizations for analyzing data. https://www.elastic.co/integrations
+We can get your data in the system in a minute with dashboards, saved searches, and visualizations for analyzing data. </br>
+https://www.elastic.co/integrations
 
-The Elastic Agent with the Elastic Endpoint Integration, which protects your hosts and sends logs, metrics, and endpoint security data to Elastic Security. See Configure and install the Endpoint Security integration.  https://www.elastic.co/guide/en/security/current/ingest-data.html 
+The Elastic Agent with the Elastic Endpoint Integration protects hosts and sends logs, metrics, and endpoint security data to Elastic Security. </br> https://www.elastic.co/guide/en/security/current/ingest-data.html 
 
 ## EDR: malware, ransomware protection
 **Malware Prevention** is ML based and evaluates the binary when it sees it. Signatureless malware prevention puts an immediate stop to malicious executables on endpoints. In its latest round of testing, AV-Comparatives found that the [Elastic Security machine learning model stops 99.6% of malware and triggers zero false positives on common business software](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/). 
